@@ -1,13 +1,14 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Flutter "i think"**
 
-## Project: **X**
+## Project: **a simple arpg game**
 
 ---
 
-### X/X/XX:
-* Text
+### 10/5/24:
+* 
+* 
 
 ### X/X/XX:
 * Text
