@@ -1,19 +1,73 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Flask**
 
-## Project: **X**
+## Project: **To-Do List**
 
 ---
 
-### X/X/XX:
+### 10/3/24:
+* https://www.youtube.com/watch?v=45P3xQPaYxc (flask vid link)
+* 
+
+### 10/21/24:
 * Text
 
-### X/X/XX:
+### 11/4/24:
 * Text
 
+### xx/xx/xx:
+* Text
 
-<!-- 
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+### xx/xx/xx:
+* Text
+
+<!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
