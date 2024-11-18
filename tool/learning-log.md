@@ -8,7 +8,7 @@
 
 ### 10/3/24:
 * https://www.youtube.com/watch?v=45P3xQPaYxc (flask vid link)
-* 
+*
 
 ### 10/21/24:
 * Text
