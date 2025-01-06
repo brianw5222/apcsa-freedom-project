@@ -48,7 +48,7 @@ url_for() helps you create URLs for specific routes in your app.
 This is helpful when you want to avoid hardcoding URLs in your templates.
 
 
-### 1/2/25:
+### 1/6/25:
 *
 Flask allows you to serve static files like CSS, JavaScript, and images.
 Created a static/ folder and linked CSS and images to my HTML templates.
