@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: flask
+## Product: to-do list
 
 ---
 
@@ -9,13 +9,17 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- 2/20 title and text
+- 2/28 add task, have complete task
+- 3/14 remove finished task
+- 3/24 add coin and "games"
+- 4/7  complete "games"
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- add background color/ txt color(eg. for different task: red- emergency, green- daily)
+- add a set of daily task
+- add more games
 
 
 <!-- EXAMPLE
