@@ -54,20 +54,30 @@ Flask allows you to serve static files like CSS, JavaScript, and images.
 Created a static/ folder and linked CSS and images to my HTML templates.
 
 
-### xx/xx/xx:
-* Text
+### 1/20/25:
+* Flask’s built-in debugger makes it easy to find errors.
+* Learned how to enable debugging using app.run(debug=True).
 
-### xx/xx/xx:
-* Text
 
-### xx/xx/xx:
-* Text
+### 2/3/25:
+* Used redirect() and url_for() to redirect users to another page.
+* Learned how to create custom error pages (e.g., 404 page not found).
 
-### xx/xx/xx:
-* Text
 
-### xx/xx/xx:
-* Text
+### 2/24/25:
+* Sessions let you store user-specific data across requests.
+* Flask provides cookies to store small pieces of information on the client side.
+
+
+### 3/3/25:
+* Blueprints allow you to organize a Flask app into separate components
+* Helps keep large apps organized and maintainable.
+
+
+### 3/10/25:
+* Flask works well with databases, and SQLite is a simple, lightweight option.
+* Used sqlite3 to create a database and interact with it using SQL queries.
+
 
 ### xx/xx/xx:
 * Text
