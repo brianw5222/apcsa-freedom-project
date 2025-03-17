@@ -79,8 +79,10 @@ Created a static/ folder and linked CSS and images to my HTML templates.
 * Used sqlite3 to create a database and interact with it using SQL queries.
 
 
-### xx/xx/xx:
-* Text
+### 3/17/25:
+* Flask-SQLAlchemy= easier to working with databases
+* Learned how to define database models with Python classes.
+
 
 ### xx/xx/xx:
 * Text
