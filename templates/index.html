@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>To-Do List</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           max-width: 600px;
+           margin: auto;
+           padding: 20px;
+       }
+       .task {
+           margin-bottom: 10px;
+       }
+       .points, .coin {
+           font-weight: bold;
+           font-size: 18px;
+           margin: 10px 0;
+       }
+       ul {
+           padding-left: 0;
+           list-style: none;
+       }
+       form {
+           margin-top: 10px;
+       }
+       button {
+           margin-top: 5px;
+       }
+       .message {
+           padding: 10px;
+           margin-top: 10px;
+           background-color: #f0f8ff;
+           border: 1px solid #ccc;
+       }
+   </style>
+</head>
+<body>
+   <h1>My To-Do</h1>
+
+   <div class="points">Total Points: {{ total_points }}</div>
+   <div class="coin">Coins: {{ coins }}</div>
+
+   {% if result %}
+       <div class="message"><strong>{{ result }}</strong></div>
+   {% endif %}
+
+   <form method="POST">
+       <input type="text" name="task" placeholder="Enter new task" required>
+       <input type="number" name="points" placeholder="Enter points" required min="1">
+       <button type="submit">Add Task</button>
+   </form>
+
+   <form action="{{ url_for('exchange_points') }}" method="POST">
+       <button type="submit">💰 Exchange 100 Points for 1 Coin</button>
+   </form>
+
+   <form action="{{ url_for('gamble') }}" method="POST">
+       <button type="submit">🎰 Gamble *1 Coin)</button>
+       <p6>50% chance to get 3 coins</p6>
+   </form>
+
+   <form action="{{ url_for('dice_roll') }}" method="POST">
+       <button type="submit">🎲 Roll Dice (2 Coins)</button>
+       <p6>6= +5 coin</p6>
+       <p6>4 or 5 = +3 coin</p6>
+   </form>
+
+   <h2>Pending Tasks</h2>
+   <ul>
+       {% for task in tasks %}
+           <li class="task">
+               {{ task.task }} ({{ task.points }} points)
+               <a href="{{ url_for('complete', task_id=loop.index0) }}">Complete</a>
+               <a href="{{ url_for('delete', task_id=loop.index0) }}">Delete</a>
+           </li>
+       {% else %}
+           <li>No pending tasks.</li>
+       {% endfor %}
+   </ul>
+
+   <h2>Completed Tasks</h2>
+   <ul>
+       {% for task in completed %}
+           <li class="task">
+               {{ task.task }} ({{ task.points }} points) - Done
+               <a href="{{ url_for('delete', task_id=loop.index0 + tasks|length) }}">Undo</a>
+           </li>
+       {% else %}
+           <li>No completed tasks yet.</li>
+       {% endfor %}
+   </ul>
+</body>
+</html>
