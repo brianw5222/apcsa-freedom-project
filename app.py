@@ -82,7 +82,7 @@ def gamble():
         else:
             result = "💩 You lost 1 coin."
     else:
-        result = "Not enough coins to gamble."
+        result = "Not enough coins"
 
     return redirect(url_for("index", result=result))
 
@@ -104,7 +104,7 @@ def dice_roll():
         else:
             result = f"💩 You rolled a {roll}. You lost your 2 coins."
     else:
-        result = "Not enough coins to roll the dice."
+        result = "Not enough coins"
 
     return redirect(url_for("index", result=result))
 
