@@ -8,7 +8,7 @@ For my project, I chose to independently study **Flask** in order to help me mak
 
 ## Links
 
-[Product](../app.py)
+[Product](../index.html)
 
 [Presentation]()
 
